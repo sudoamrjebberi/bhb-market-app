@@ -1,0 +1,14 @@
+{
+  "name": "bhb-market",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BHB Market - Commercial management, invoicing & stock (Web) + Desktop (Electron/Realm)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js --port 3000",
+    "desktop": "cd desktop && npx electron ."
+  },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED"
+}
